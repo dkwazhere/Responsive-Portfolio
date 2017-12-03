@@ -125,7 +125,6 @@ li a {
 	clear: both;
 	width: 50px;
 	height: 50px;
-	margin-top: 12%;
 }
 
 .img2 {
@@ -159,7 +158,6 @@ input[type=text], select, textarea {
 	padding-bottom: 2%;
 	margin-right: 20%;
 	margin-left: 15%;
-
 }
 
 .contactform {
@@ -280,7 +278,7 @@ footer {
 	text-align: center;
 	background: #666;
 	border-top: 8px solid #4aaaa5;
-	bottom: -211px;
+	bottom: -245px;
 	margin-right: -8px;
 	margin-left: -8px;
   }
@@ -295,7 +293,7 @@ footer {
 	text-align: center;
 	background: #666;
 	border-top: 8px solid #4aaaa5;
-	bottom: -35px;
+	bottom: -45px;
   }
 
 /* resonsive  design */
@@ -415,10 +413,108 @@ footer {
 		text-align: center;
 		background: #666;
 		border-top: 8px solid #4aaaa5;
-		bottom: -232px;
+		bottom: -255px;
 		margin-right: -8px;
 		margin-left: -8px;
 	  }
+	/* contact page */
+	.form {
+		width: 200px;
+		border-radius: 5px;
+		background-color: rgb(255, 255, 255);
+		padding-right: 10%;
+		padding-left: 5%;
+		padding-bottom: 2%;
+		margin-right: 20%;
+		margin-left: 15%;
+	}
+	.connectcontact {
+		position: relative;
+		border: solid gray;
+		background-color: white;
+		float: right;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		padding-top: 3%;
+		padding-bottom: 5%;
+		padding-left: 3%;
+		padding-right: 3%;
+		margin-top: -43%;
+		margin-right: 20%;
+		font-size: 24px;
+		font-weight: bold;
+		border-radius: 5px;
+		text-align: center;
+	}
+	.port {
+		position: absolute;
+		background-color: WHITE;
+		border: solid gray;
+		width: 230px;
+		padding-bottom: 40%;
+		padding-top: -1%;
+		padding-left: 1%;
+		padding-right: 10%;
+		margin-left: 14.85%;
+		margin-top: 2%;
+		border-radius: 5px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		font-size: 24px;
+		text-align: center;
+	}
+	.portimg1 {
+		float: right;
+		padding: 1px;
+		height: 70px;
+		width: 90px;
+	}
+	
+	.portimg2 {
+		float: right;
+		padding: 1px;
+		height: 70px;
+		width: 90px;
+	}
+	
+	.portimg3 {
+		float: left;
+		padding: 1px;
+		height: 70px;
+		width: 90px;
+	}
+	
+	.portimg4 {
+		float: left;
+		padding: 1px;
+		height: 70px;
+		width: 90px;
+	}
+	
+	.portimg5 {
+		float: left;
+		padding: 1px;
+		height: 70px;
+		width: 90px;
+	}
+	.port1 {
+		position: absolute;
+		background-color: white;
+		margin-left: 20%;
+		margin-top: 32%;
+		padding-left: 1%;
+		padding-top: 0;
+		width: 10%;
+		background-color: white;
+	}
+	
+	.port2 {
+		position: absolute;
+		background-color: WHITE;
+		margin-top: 10%;
+		width: 10%;
+		margin-left: 21.6%;
+	}
+	
 }
 /* 768 BABY! */
 @media screen and (max-width: 768px) {
@@ -611,13 +707,13 @@ footer {
 		background-color: white;
 		float: right;
 		font-family: 'Georgia', Times, Times New Roman, serif;
-		padding-top: 3%;
-		padding-bottom: 5%;
-		padding-left: 3%;
-		padding-right: 3%;
-		margin-top: 2.2%;
-		margin-right: 20%;
-		font-size: 24px;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 23%;
+		padding-right: 23%;
+		margin-top: 3%;
+		margin-right: 21%;
+		font-size: 22px;
 		font-weight: bold;
 		border-radius: 5px;
 		text-align: center;
@@ -630,8 +726,8 @@ footer {
 		padding-left: 0%;
 		padding-top: 0;
 		margin-bottom: 20%;
-		left: 35px;
-		top: 245px;
+		left: 65px;
+		top: 155px;
 	}
 	.aboutme {
 		border: solid gray;
@@ -641,16 +737,17 @@ footer {
 		text-align: left;
 		width: 300px;
 		padding-bottom: 37%;
-		margin-left: 15%;
+		margin-left: 11.5%;
 		border-radius: 5px;
+		padding-right: 157px;
 		padding-left: 20px;
 	}
 	.profilepic {
 		float: left;
 		border: solid gray;
 		position: absolute;
-		height: 200px;
-		width: 200px;
+		height: 150px;
+		width: 300px;
 		left: 15%;
 		top: 14%;
 	}
@@ -664,8 +761,9 @@ footer {
 		text-align: center;
 		background: #666;
 		border-top: 8px solid #4aaaa5;
-		bottom: -232px;
+		bottom: -292px;
 		margin-right: -8px;
 		margin-left: -8px;
 	  }
 }
+

@@ -848,7 +848,7 @@ footer {
 		padding-bottom: 1%;
 		padding-left: 23%;
 		padding-right: 23%;
-		margin-top: 3%;
+		margin-top: 1%;
 		margin-right: 21%;
 		font-size: 22px;
 		font-weight: bold;
@@ -898,9 +898,122 @@ footer {
 		text-align: center;
 		background: #666;
 		border-top: 8px solid #4aaaa5;
-		bottom: -292px;
+		bottom: -328px;
 		margin-right: -8px;
 		margin-left: -8px;
 	  }
+	  .form {
+		width: 380px;
+		border-radius: 5px;
+		background-color: rgb(255, 255, 255);
+		padding-right: 10%;
+		padding-left: 5%;
+		padding-bottom: 2%;
+		margin-right: 15%;
+		margin-left: 12.2%;
+	}
+	.connectcontact {
+		position: relative;
+		border: solid gray;
+		background-color: white;
+		float: right;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 23%;
+		padding-right: 23%;
+		margin-top: -325px;
+		margin-right: 20%;
+		font-size: 22px;
+		font-weight: bold;
+		border-radius: 5px;
+		text-align: center;
+	}
+	.port {
+		position: absolute;
+		background-color: WHITE;
+		border: solid gray;
+		width: 158px;
+		padding-bottom: 30%;
+		padding-top: -1%;
+		padding-left: 0;
+		padding-right: 50%;
+		margin-left: 12%;
+		margin-top: 5%;
+		border-radius: 5px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		font-size: 24px;
+		text-align: center;
+	  }
+	  .connect1 {
+		position: relative;
+		border: solid gray;
+		background-color: white;
+		float: right;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 20px;
+		padding-right: 290px;
+		margin-bottom: 1%;
+		right: 55px;
+		font-size: 18px;
+		font-weight: bold;
+		border-radius: 5px;
+		bottom: -328px;
+	  }
+	  .portimg1 {
+		float: right;
+		padding: 1px;
+		height: 50px;
+		width: 50px;
+	}
+	
+	.portimg2 {
+		float: right;
+		padding: 1px;
+		height: 50px;
+		width: 50px;
+	}
+	
+	.portimg3 {
+		float: left;
+		padding: 1px;
+		height: 50px;
+		width: 50px;
+	}
+	
+	.portimg4 {
+		float: left;
+		padding: 1px;
+		height: 50px;
+		width: 50px;
+	}
+	
+	.portimg5 {
+		float: left;
+		padding: 1px;
+		height: 50px;
+		width: 50px;
+	}
+	.port1 {
+		position: absolute;
+		background-color: white;
+		margin-left: 21%;
+		margin-top: 13%;
+		padding-left: 1%;
+		padding-top: 0;
+		width: 10%;
+		background-color: white;
+	}
+	
+	.port2 {
+		position: absolute;
+		background-color: WHITE;
+		margin-top: 30%;
+		width: 10%;
+		margin-left: 23.6%;
+	}
 }
 
